@@ -77,10 +77,10 @@ char foo;
 #if not defined(__AVR_ATmega328P__)
     #error Sorry, this program works only on Arduino Uno 
 #endif
-#if defined(LCD_PRINT) && defined(DEBUG_PRINT)
+/*#if defined(LCD_PRINT) && defined(DEBUG_PRINT)
   #error Invalid Parameters: Use LCD_PRINT or DEBUG_PRINT
 #endif
-
+*/
 #if defined(DEBUG_PRINT) && defined(ATSW)
   #error Invalid Parameters: Use DEBUG_PRINT or ATSW
 #endif
